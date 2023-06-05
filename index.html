@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>Currency Converter</h3>
+<!-- <p><select>
+    <option value="rands">ZAR</option>
+    <option value="dollars">USD</option>
+    <option value="pounds">GBP</option>
+    <option value="euros">EUR</option>
+</select> -->
+<p><h4>ZAR</h4>
+    <input id="inputRands" type="number" placeholder="R" oninput="RandsConv(this.value)" onchange="RandsConv(this.value)">
+  </p>
+<p><h4>USD</h4>
+    <input id="inputDollars" type="number" placeholder="$" oninput="DollarsConv(this.value)" onchange="DollarsConv(this.value)">
+  </p>
+<p><h4>EUR</h4>
+    <input id="inputEuros" type="number" placeholder="€" oninput="RandstoDollars(this.value)" onchange="RandstoDollars(this.value)">
+  </p>
+<p><H4>GBP</H4>
+    <input id="inputPounds" type="number" placeholder="£" oninput="RandstoDollars(this.value)" onchange="RandstoDollars(this.value)">
+  </p>
+  <!-- <p>Dollars <span id="dollars"></span></p> -->
+  
+  <!-- <p>Euros <span id="euros"></span></p> -->
+  
+  <!-- <p>Pounds <span id="pounds"></span></p> -->
+  
+  
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
